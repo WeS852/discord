@@ -45,7 +45,7 @@
 }
 
 /* Supporters */
-.member_cbd271:has([src*="220275692926009344"]), .contents_f9f2ca:has([src*="220275692926009344"]), .userProfileModalInner_c69a7b:has([src*="220275692926009344"])
+.member_cbd271:has([src*="276056980781793280"]), .contents_f9f2ca:has([src*="276056980781793280"]), .userProfileModalInner_c69a7b:has([src*="276056980781793280"])
 .member_cbd271:has([src*="367617500021784587"]), .contents_f9f2ca:has([src*="367617500021784587"]), .userProfileModalInner_c69a7b:has([src*="367617500021784587"]),
 .member_cbd271:has([src*="719378258491342878"]), .contents_f9f2ca:has([src*="719378258491342878"]), .userProfileModalInner_c69a7b:has([src*="719378258491342878"]),
 .member_cbd271:has([src*="644964603108786233"]), .contents_f9f2ca:has([src*="644964603108786233"]), .userProfileModalInner_c69a7b:has([src*="644964603108786233"]),
@@ -64,7 +64,7 @@
 }
 /* Developers */
 .member_cbd271:has([src*="276056980781793280"]), .contents_f9f2ca:has([src*="276056980781793280"]), .userProfileModalInner_c69a7b:has([src*="276056980781793280"]),
-.member_cbd271:has([src*="207335168430702602"]), .contents_f9f2ca:has([src*="207335168430702602"]), .userProfileModalInner_c69a7b:has([src*="207335168430702602"]),
+.member_cbd271:has([src*="276056980781793280"]), .contents_f9f2ca:has([src*="276056980781793280"]), .userProfileModalInner_c69a7b:has([src*="276056980781793280"]),
 .member_cbd271:has([src*="394891840815366147"]), .contents_f9f2ca:has([src*="394891840815366147"]), .userProfileModalInner_c69a7b:has([src*="394891840815366147"]) {
   --dplus-badge: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_dev.svg");
   --dplus-dev: "";
@@ -91,12 +91,12 @@
 .theme-light { --dplus-badge-memberlist: url("https://plusinsta.github.io/discord-plus/assets/discord/home_light.svg"); }
 
   /* Badge for Michelle */
-.userProfileModalInner_c69a7b:has([src*="220275692926009344"])  .text-lg-semibold__84aef:after
+.userProfileModalInner_c69a7b:has([src*="276056980781793280"])  .text-lg-semibold__84aef:after
 { background-image: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_vip_michelle.svg");
   width: 96px; height: 20px; background-size: cover; content: ""; display: inline-block; z-index: 0; }
-[data-user-id="220275692926009344"] .topSection-13QKHs header:after
+[data-user-id="276056980781793280"] .topSection-13QKHs header:after
 { margin-left: 16px; }
-[data-user-id="220275692926009344"] .nameTagSmall-2JO-C-
+[data-user-id="276056980781793280"] .nameTagSmall-2JO-C-
 { margin-bottom: 0; }
 
 /* :) */
