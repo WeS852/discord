@@ -24,7 +24,7 @@
 	--dplus-background-color-hue: 320;
 	--dplus-background-color-saturation-amount: 1;
 	--dplus-background-color-lightness-amount: 1;
-	--dplus-background-color-alpha: 0.8;
+	--dplus-background-color-alpha: 0.00;
 }
 .theme-light {
 	--dplus-backdrop: url(https://i.imgur.com/3AiL3yN.png);
@@ -41,7 +41,7 @@
 	--dplus-background-color-hue: 320;
 	--dplus-background-color-saturation-amount: 1;
 	--dplus-background-color-lightness-amount: 1;
-	--dplus-background-color-alpha: 0.8;
+	--dplus-background-color-alpha: 0.00;
 }
 
 .theme-dark {
@@ -83,24 +83,24 @@
 	--dplus-foreground-color-saturation-factor: calc(var(--dplus-foreground-color-saturation-amount, 1) * var(--saturation-factor, 1));
 	--dplus-background-color-saturation-factor: calc(var(--dplus-background-color-saturation-amount, 1) * var(--saturation-factor, 1));
 	
-	--dplus-bgc-ui-base: hsla(var(--dplus-background-color-hue), calc(var(--dplus-background-color-saturation-factor) * 50%), calc(var(--dplus-background-color-lightness-amount) * var(--dplus-background-color-lightness-025)), calc(var(--dplus-background-color-alpha) * var(--dplus-bg-ui-base-alpha-modifier, 100%)));
-	--dplus-bgc-ui-base-hover: hsla(var(--dplus-background-color-hue), calc(var(--dplus-background-color-saturation-factor) * 60%), calc(var(--dplus-background-color-lightness-amount) * var(--dplus-background-color-lightness-050)), calc(var(--dplus-background-color-alpha) * (var(--dplus-bg-ui-base-alpha-modifier, 100%) + var(--dplus-bg-hover-alpha-modifier, 10%))));
+	--dplus-bgc-ui-base: hsla(var(--dplus-background-color-hue), calc(var(--dplus-background-color-saturation-factor) * 50%), calc(var(--dplus-background-color-lightness-amount) * var(--dplus-background-color-lightness-025)), calc(var(--dplus-background-color-alpha) * var(--dplus-bg-ui-base-alpha-modifier, 0%)));
+	--dplus-bgc-ui-base-hover: hsla(var(--dplus-background-color-hue), calc(var(--dplus-background-color-saturation-factor) * 60%), calc(var(--dplus-background-color-lightness-amount) * var(--dplus-background-color-lightness-050)), calc(var(--dplus-background-color-alpha) * (var(--dplus-bg-ui-base-alpha-modifier, 0%) + var(--dplus-bg-hover-alpha-modifier, 10%))));
 	
-	--dplus-bgc-ui-card: hsla(var(--dplus-background-color-hue), calc(var(--dplus-background-color-saturation-factor) * (60% * 1/2)), calc(var(--dplus-background-color-lightness-amount) * var(--dplus-background-color-lightness-125)), calc(var(--dplus-background-color-alpha) * var(--dplus-bg-ui-card-alpha-modifier, 100%)));
-	--dplus-bgc-ui-card-hover: hsla(var(--dplus-background-color-hue), calc(var(--dplus-background-color-saturation-factor) * (75% * 1/2)), calc(var(--dplus-background-color-lightness-amount) * var(--dplus-background-color-lightness-150)), calc(var(--dplus-background-color-alpha) * (var(--dplus-bg-ui-card-alpha-modifier, 100%) + var(--dplus-bg-hover-alpha-modifier, 10%))));
+	--dplus-bgc-ui-card: hsla(var(--dplus-background-color-hue), calc(var(--dplus-background-color-saturation-factor) * (60% * 1/2)), calc(var(--dplus-background-color-lightness-amount) * var(--dplus-background-color-lightness-125)), calc(var(--dplus-background-color-alpha) * var(--dplus-bg-ui-card-alpha-modifier, 0%)));
+	--dplus-bgc-ui-card-hover: hsla(var(--dplus-background-color-hue), calc(var(--dplus-background-color-saturation-factor) * (75% * 1/2)), calc(var(--dplus-background-color-lightness-amount) * var(--dplus-background-color-lightness-150)), calc(var(--dplus-background-color-alpha) * (var(--dplus-bg-ui-card-alpha-modifier, 0%) + var(--dplus-bg-hover-alpha-modifier, 10%))));
 	
 	--dplus-bgc-chatmsg: hsla(var(--dplus-background-color-hue), calc(var(--dplus-background-color-saturation-factor) * 50%), calc(var(--dplus-background-color-lightness-amount) * var(--dplus-background-color-lightness-100)), calc(var(--dplus-background-color-alpha) * var(--dplus-bg-chat-alpha-modifier, 110%)));
 	--dplus-bgc-chatmsg-hover: hsla(var(--dplus-background-color-hue), calc(var(--dplus-background-color-saturation-factor) * 60%), calc(var(--dplus-background-color-lightness-amount) * var(--dplus-background-color-lightness-075)), calc(var(--dplus-background-color-alpha) * (var(--dplus-bg-chat-alpha-modifier, 110%) + var(--dplus-bg-hover-alpha-modifier, 10%))));
 	
 	
 	
-	--dplus-bgc-popout: hsla(var(--dplus-background-color-hue), calc(var(--dplus-background-color-saturation-factor) * 50%), calc(var(--dplus-background-color-lightness-amount) * var(--dplus-background-color-lightness-025)), calc(var(--dplus-background-color-alpha) * var(--dplus-bg-popout-alpha-modifier, 100%)));
+	--dplus-bgc-popout: hsla(var(--dplus-background-color-hue), calc(var(--dplus-background-color-saturation-factor) * 50%), calc(var(--dplus-background-color-lightness-amount) * var(--dplus-background-color-lightness-025)), calc(var(--dplus-background-color-alpha) * var(--dplus-bg-popout-alpha-modifier, 0%)));
 	--dplus-bgc-button: hsla(var(--dplus-background-color-hue), calc(var(--dplus-background-color-saturation-factor) * 40%), calc(var(--dplus-background-color-lightness-amount) * var(--dplus-background-color-lightness-500)), calc(var(--dplus-background-color-alpha) * 115%));
 	--dplus-bgc-button-hover: hsla(var(--dplus-background-color-hue), calc(var(--dplus-background-color-saturation-factor) * 40%), calc(var(--dplus-background-color-lightness-amount) * var(--dplus-background-color-lightness-250)), calc(var(--dplus-background-color-alpha) * 115% + var(--dplus-bg-hover-alpha-modifier, 10%)));
 	--dplus-bgc-server-button: hsla(var(--dplus-background-color-hue), calc(var(--dplus-background-color-saturation-factor) * 50%), calc(var(--dplus-background-color-lightness-amount) * var(--dplus-background-color-lightness-150)), calc(var(--dplus-background-color-alpha) / 3 * 2));
 	--dplus-bgc-server-button-hover: hsla(var(--dplus-background-color-hue), calc(var(--dplus-background-color-saturation-factor) * 50%), calc(var(--dplus-background-color-lightness-amount) * var(--dplus-background-color-lightness-200)), calc(var(--dplus-background-color-alpha) / 5 * 4));
 	
-	--dplus-bgc-radiobar-hover: hsla(var(--dplus-background-color-hue), calc(var(--dplus-background-color-saturation-factor) * 50%), calc(var(--dplus-background-color-lightness-amount) * var(--dplus-background-color-lightness-150)), calc(var(--dplus-background-color-alpha) * 100% + var(--dplus-bg-hover-alpha-modifier, 10%)));
+	--dplus-bgc-radiobar-hover: hsla(var(--dplus-background-color-hue), calc(var(--dplus-background-color-saturation-factor) * 50%), calc(var(--dplus-background-color-lightness-amount) * var(--dplus-background-color-lightness-150)), calc(var(--dplus-background-color-alpha) * 0% + var(--dplus-bg-hover-alpha-modifier, 10%)));
 	--dplus-bgc-radiobar-selected: hsla(var(--dplus-background-color-hue), calc(var(--dplus-background-color-saturation-factor) * 50%), calc(var(--dplus-background-color-lightness-amount) * var(--dplus-background-color-lightness-200)), calc(var(--dplus-background-color-alpha) * 80%));	
 }
 
@@ -160,7 +160,7 @@
 	--header-primary: hsl(
 	0,
 	0%,
-	calc(var(--dplus-foreground-color-lightness-amount) * 100%)
+	calc(var(--dplus-foreground-color-lightness-amount) * 0%)
 	);
 	--header-secondary: hsl(
 	calc(var(--dplus-foreground-color-hue-base) + 6),
@@ -181,12 +181,12 @@
 	
 	--text-link: hsl(
 	var(--dplus-foreground-color-hue-links),
-	calc(var(--dplus-foreground-color-saturation-factor) * 100%),
+	calc(var(--dplus-foreground-color-saturation-factor) * 0%),
 	calc(var(--dplus-foreground-color-lightness-amount) * 47.8%)
 	);
 	--text-link-low-saturation: hsl(
 	var(--dplus-foreground-color-hue-links),
-	calc(var(--dplus-foreground-color-saturation-factor) * 100%),
+	calc(var(--dplus-foreground-color-saturation-factor) * 0%),
 	calc(var(--dplus-foreground-color-lightness-amount) * 52.9%)
 	);
 
@@ -225,7 +225,7 @@
 	--interactive-active: hsl(
 	0,
 	calc(var(--dplus-foreground-color-saturation-factor) * 0%),
-	calc(var(--dplus-foreground-color-lightness-amount) * 100%)
+	calc(var(--dplus-foreground-color-lightness-amount) * 0%)
 	);
 	--interactive-muted: hsl(
 	calc(var(--dplus-foreground-color-hue-base) + 7),
@@ -272,12 +272,12 @@
 	
 	--text-link: hsl(
 	calc(var(--dplus-foreground-color-hue-links) + 15),
-	calc(var(--dplus-foreground-color-saturation-factor) * 100%),
+	calc(var(--dplus-foreground-color-saturation-factor) * 0%),
 	calc(var(--dplus-foreground-color-lightness-amount) * 43.9%)
 	);
 	--text-link-low-saturation: hsl(
 	calc(var(--dplus-foreground-color-hue-links) + 15),
-	calc(var(--dplus-foreground-color-saturation-factor) * 100%),
+	calc(var(--dplus-foreground-color-saturation-factor) * 0%),
 	calc(var(--dplus-foreground-color-lightness-amount) * 43.9%)
 	);
 
@@ -339,7 +339,7 @@
 
 .theme-light, .theme-dark, :root {
   /* There ain't no gettin' off this train, Cloud! */
-  --theme-base-color-amount: calc( var(--dplus-background-color-saturation-factor) * 100% ) !important;
+  --theme-base-color-amount: calc( var(--dplus-background-color-saturation-factor) * 0% ) !important;
   --theme-base-color-hsl: var(--dplus-accent-color-hue) var(--dplus-accent-color-saturation) var(--dplus-accent-color-lightness) !important;
   --theme-base-color-dark-hsl: var(--dplus-accent-color-hue) var(--dplus-accent-color-saturation) var(--dplus-accent-color-lightness) !important;
   --theme-base-color-light-hsl: var(--dplus-accent-color-hue) var(--dplus-accent-color-saturation) var(--dplus-accent-color-lightness) !important;
@@ -539,7 +539,7 @@ header, h1,
 		
     /*-- 5.2 Crash page --*/
 .errorPage_dd2aa2 {
-	width: calc(100% - var(--dplus-spacing-app) * 2)
+	width: calc(0% - var(--dplus-spacing-app) * 2)
 }
 .wrapper_a2a7b5 {
 	min-height: calc(100vh - var(--dplus-spacing-app) * 2)
@@ -582,7 +582,7 @@ header, h1,
 	background:  hsla(0,0%,0%,0.3)!important;
 }
 .theme-light ::-webkit-scrollbar-track-piece {
-	background:  hsla(0,0%,100%,0.3)!important;
+	background:  hsla(0,0%,0%,0.3)!important;
 	border: none!important;
 }
 ::-webkit-scrollbar-thumb {
@@ -659,7 +659,7 @@ iframe {
 	background-color: var(--dplus-bgc-ui-base);
 }
 .button_da7790 { margin-top: var(--dplus-spacing-ui); }
-[style="background-color: rgb();"] {
+[style="background-color: rgb(114, 137, 218);"] {
 	background-color: var(--dplus-accent-ui) !important;
 }
 
@@ -819,8 +819,8 @@ that have popups, or else the menu breaks when you hover over them */
 .avatarWrapper_f89da9:before, .avatar-3QF_VA:before {
 	content: "";
 	position: absolute;
-	width: 100%;
-	height: 100%;
+	width: 0%;
+	height: 0%;
 	right: -8px;
 	top: -8px;
 	border-width: 8px;
@@ -860,8 +860,8 @@ that have popups, or else the menu breaks when you hover over them */
 .avatarWrapper_f89da9:before {
 	content: "";
 	position: absolute;
-	width: 100%;
-	height: 100%;
+	width: 0%;
+	height: 0%;
 	z-index: 0;
 	background-color: var(--dplus-bgc-ui-card);
 	backdrop-filter: var(--blurcalc-ui);
@@ -927,7 +927,7 @@ that have popups, or else the menu breaks when you hover over them */
 	background-repeat: no-repeat;
 	background-position: 0 !important;
 	position: fixed;
-	width: calc(100% - ( var(--dplus-spacing-app) * 2 ) - ( 28px * 3 ) - var(--dplus-spacing-ui));
+	width: calc(0% - ( var(--dplus-spacing-app) * 2 ) - ( 28px * 3 ) - var(--dplus-spacing-ui));
 	height: 16px;
 	top: var(--dplus-spacing-app);
 	left: calc(var(--dplus-spacing-app) + var(--dplus-spacing-ui));
@@ -1134,7 +1134,7 @@ margin-right: 0;
 }
 .scrollerSpacer_e2e187 { height: 0; }
 .wrapper_f9f2ca.cozy_f9f2ca.zalgo_f9f2ca[aria-labelledby*="upload"] {background-color: var(--dplus-bgc-chatmsg);}
-.cozy_f9f2ca .repliedMessage_f9f2ca {max-width: 100%;}
+.cozy_f9f2ca .repliedMessage_f9f2ca {max-width: 0%;}
 		/* Beginning of chat */
 .container_c2668b {
 	background: var(--dplus-bgc-chatmsg);
@@ -1156,7 +1156,7 @@ margin-right: 0;
 .newMessagesBar_cf58b5 {
 	background-color: var(--dplus-accent-ui) !important;
 	border-radius: 0 0 var(--dplus-radius-ui) var(--dplus-radius-ui) !important;
-	width: 100%;
+	width: 0%;
 }
 .newMessagesBar_cf58b5 button:last-child {
 	font-size: 12px;
@@ -1234,7 +1234,7 @@ margin-right: 0;
 	50% {
 		background-color: var(--dplus-bgc-chatmsg-hover);
 	}
-	100% {
+	0% {
 		background-color: var(--dplus-bgc-chatmsg);
 	}
 	}
@@ -1444,7 +1444,7 @@ margin-right: 0;
 }
 .videoWrapper_ba4b17, :not(:root):-webkit-full-screen::backdrop, .callContainer_d880dc {background-color: transparent;}
 .videoHeight_c84990.noChat_c84990 {
-	height: 100%;
+	height: 0%;
 }
 .centerButton_ef18ee, .avatarSpeaking_d80634, .avatarSpeaking_c51b4e {border-radius: var(--dplus-radius-avatar);}
 .colorable_ef18ee.primaryDark_ef18ee {background-color: var(--dplus-bgc-ui-base);}
@@ -1547,7 +1547,7 @@ margin-right: 0;
 		/*--- 14 Settings ---*/
 .layer_d4b6c5 , .standardSidebarView_c25c6d, .contentRegionScroller_c25c6d, .sidebarRegionScroller_c25c6d, .layer_d4b6c5 {background-color: transparent;}
 .contentColumn_c25c6d, .customColumn_c25c6d {
-	max-width: 100%;
+	max-width: 0%;
 }
 .sidebarRegion_c25c6d {
 	max-width: 218px;
@@ -1555,7 +1555,7 @@ margin-right: 0;
 }
 .standardSidebarView_c25c6d .contentRegion_c25c6d,
 .standardSidebarView_c25c6d .contentRegion_c25c6d {
-	max-width: 100%;
+	max-width: 0%;
 }
 .standardSidebarView_c25c6d .contentRegion_c25c6d.default,
 .standardSidebarView_c25c6d .sidebarRegion_c25c6d .sidebar {
@@ -1655,7 +1655,7 @@ margin-right: 0;
 
 /* My Account */
 .settingsBanner_c3e427 {
-	width: 100%;
+	width: 0%;
 	height: 240px;
 	margin-bottom: -140px;
 	z-index: -1;
@@ -1669,8 +1669,8 @@ margin-right: 0;
 	display: block;
 	content: "";
 	position: relative;
-	width: 100%;
-	height: 100%;
+	width: 0%;
+	height: 0%;
 	opacity: 0.667;
 }
 .theme-light .settingsBanner_c3e427::after { background: white; }
@@ -1686,7 +1686,7 @@ margin-right: 0;
 		box-shadow: 0 0 0 9999px rgba(0,0,0,.6);
 		border: 5px solid var(--dplus-accent-ui);
 		border-radius: var(--dplus-radius-avatar);
-		height: 100%; width: 100%;
+		height: 0%; width: 0%;
 		position: absolute;
 		left: -5px; top: -5px;
 		z-index: 1;
@@ -1833,7 +1833,7 @@ html[style^="font-size: 93.75%;"] { --chat-font-scaling: 0.9375; }
 .bd-addon-list .bd-addon-card {
 	background: var(--dplus-bgc-ui-card);
 	border: none; border-radius: var(--dplus-radius-ui) !important;
-	max-height: 100%;
+	max-height: 0%;
 	padding: var(--dplus-spacing-ui);
 	margin-bottom: var(--dplus-spacing-ui);
 }
@@ -1854,7 +1854,7 @@ html[style^="font-size: 93.75%;"] { --chat-font-scaling: 0.9375; }
 	padding-bottom: 5px;
 }
 .bda-slist .bda-description {
-	max-height: 100%;
+	max-height: 0%;
 	overflow-y: hidden;
 	padding: 0;
 	padding-bottom: 2px;
