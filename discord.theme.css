@@ -80,8 +80,8 @@
 */
 
 /*--- 1 imports ---*/
-@import url('https://raw.githubusercontent.com/WeS852/discord/refs/heads/main/discord.Plus.css?token=GHSAT0AAAAAAC4EK5BBKSWM3SESS52A57UQZ3D2EPA');
-@import url('https://raw.githubusercontent.com/WeS852/discord/refs/heads/main/discord.plugins.css?token=GHSAT0AAAAAAC4EK5BBXDYQGKPXD7CVTSLEZ3D2EBA');
+@import url('https://plusinsta.github.io/discord-plus/src/DiscordPlus-plugins.theme.css');
+@import url('https://plusinsta.github.io/discord-plus/src/DiscordPlus-extras.theme.css');
 /* Main fonts */
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700|Righteous);
 /* Localized fonts */
