@@ -91,7 +91,7 @@
             /* by Ducko */
                 /* Better Message Deletion */
         .gm-deleted-message {
-            background-color: hsl(0, 80%, 20%, 0.8) !important;
+            background-color: hsla(0, 100%, 50%, 0.8) !important;
         }
         
             /* by Farcrada */

@@ -659,7 +659,7 @@ iframe {
 	background-color: var(--dplus-bgc-ui-base);
 }
 .button_da7790 { margin-top: var(--dplus-spacing-ui); }
-[style="background-color: rgb(114, 137, 218);"] {
+[style="background-color: rgb();"] {
 	background-color: var(--dplus-accent-ui) !important;
 }
 
