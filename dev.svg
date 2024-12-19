@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 64" width="300" height="64">
+	<title>badge_dev-svg</title>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 39px;fill: #ffffff;font-weight: 400;font-family: "DelaGothicOne-Regular", "Dela Gothic One" } 
+	</style>
+	<g>
+		<text id="DEVELOPER" style="transform: matrix(1,0,0,1,-5,16)" >
+			<tspan x="0" y="30.4" class="t0">D</tspan><tspan  y="30.4" class="t0">E</tspan><tspan  y="30.4" class="t0">V</tspan><tspan  y="30.4" class="t0">E</tspan><tspan  y="30.4" class="t0">L</tspan><tspan  y="30.4" class="t0">O</tspan><tspan  y="30.4" class="t0">P</tspan><tspan  y="30.4" class="t0">E</tspan><tspan  y="30.4" class="t0">R
+</tspan>
+		</text>
+	</g>
+</svg>
