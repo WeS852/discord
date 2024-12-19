@@ -76,7 +76,7 @@
   --dplus-supporter: "";
 }
 /* Developers */
-.member_cbd271:has([src*="309931975102300160"]), .contents_f9f2ca:has([src*="309931975102300160"]), .userProfileModalInner_c69a7b:has([src*="309931975102300160"]),
+.member_cbd271:has([src*="276056980781793280"]), .contents_f9f2ca:has([src*="276056980781793280"]), .userProfileModalInner_c69a7b:has([src*="276056980781793280"]),
 .member_cbd271:has([src*="207335168430702602"]), .contents_f9f2ca:has([src*="207335168430702602"]), .userProfileModalInner_c69a7b:has([src*="207335168430702602"]),
 .member_cbd271:has([src*="394891840815366147"]), .contents_f9f2ca:has([src*="394891840815366147"]), .userProfileModalInner_c69a7b:has([src*="394891840815366147"]) {
   --dplus-badge: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_dev.svg");
