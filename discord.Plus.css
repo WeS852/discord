@@ -45,8 +45,8 @@
 }
 
 /* Supporters */
-.member_cbd271:has([src*="276056980781793280"]), .contents_f9f2ca:has([src*="276056980781793280"]), .userProfileModalInner_c69a7b:has([src*="276056980781793280"])
-.member_cbd271:has([src*="367617500021784587"]), .contents_f9f2ca:has([src*="367617500021784587"]), .userProfileModalInner_c69a7b:has([src*="367617500021784587"]),
+.member_cbd271:has([src*="365909969758846987"]), .contents_f9f2ca:has([src*="365909969758846987"]), .userProfileModalInner_c69a7b:has([src*="365909969758846987"])
+.member_cbd271:has([src*="365909969758846987"]), .contents_f9f2ca:has([src*="365909969758846987"]), .userProfileModalInner_c69a7b:has([src*="365909969758846987"]),
 .member_cbd271:has([src*="719378258491342878"]), .contents_f9f2ca:has([src*="719378258491342878"]), .userProfileModalInner_c69a7b:has([src*="719378258491342878"]),
 .member_cbd271:has([src*="644964603108786233"]), .contents_f9f2ca:has([src*="644964603108786233"]), .userProfileModalInner_c69a7b:has([src*="644964603108786233"]),
 .member_cbd271:has([src*="299958646748741632"]), .contents_f9f2ca:has([src*="299958646748741632"]), .userProfileModalInner_c69a7b:has([src*="299958646748741632"]),
@@ -59,14 +59,14 @@
 .member_cbd271:has([src*="181240443747434496"]), .contents_f9f2ca:has([src*="181240443747434496"]), .userProfileModalInner_c69a7b:has([src*="181240443747434496"]),
 .member_cbd271:has([src*="168569629906698240"]), .contents_f9f2ca:has([src*="168569629906698240"]), .userProfileModalInner_c69a7b:has([src*="168569629906698240"]),
 .member_cbd271:has([src*="408875276265848833"]), .contents_f9f2ca:has([src*="408875276265848833"]), .userProfileModalInner_c69a7b:has([src*="408875276265848833"]) {
-  --dplus-badge: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_supporter.svg");
+  --dplus-badge: url("https://raw.githubusercontent.com/WeS852/discord/refs/heads/main/friend.svg");
   --dplus-supporter: "";
 }
 /* Developers */
 .member_cbd271:has([src*="276056980781793280"]), .contents_f9f2ca:has([src*="276056980781793280"]), .userProfileModalInner_c69a7b:has([src*="276056980781793280"]),
 .member_cbd271:has([src*="276056980781793280"]), .contents_f9f2ca:has([src*="276056980781793280"]), .userProfileModalInner_c69a7b:has([src*="276056980781793280"]),
 .member_cbd271:has([src*="394891840815366147"]), .contents_f9f2ca:has([src*="394891840815366147"]), .userProfileModalInner_c69a7b:has([src*="394891840815366147"]) {
-  --dplus-badge: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_dev.svg");
+  --dplus-badge: url("https://raw.githubusercontent.com/WeS852/discord/refs/heads/main/dev.svg");
   --dplus-dev: "";
 }
 
