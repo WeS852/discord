@@ -24,7 +24,7 @@
 	--dplus-background-color-hue: 320;
 	--dplus-background-color-saturation-amount: 1;
 	--dplus-background-color-lightness-amount: 1;
-	--dplus-background-color-alpha: 0.00;
+	--dplus-background-color-alpha: 0.10;
 }
 .theme-light {
 	--dplus-backdrop: url(https://i.imgur.com/3AiL3yN.png);
@@ -41,7 +41,7 @@
 	--dplus-background-color-hue: 320;
 	--dplus-background-color-saturation-amount: 1;
 	--dplus-background-color-lightness-amount: 1;
-	--dplus-background-color-alpha: 0.00;
+	--dplus-background-color-alpha: 0.10;
 }
 
 .theme-dark {
